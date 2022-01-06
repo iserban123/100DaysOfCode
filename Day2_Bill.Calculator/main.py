@@ -15,4 +15,4 @@ no_people = int(input("How many people to split the bill?"))
 new_tip = int(tip) / 100
 new_total_bill = float(total_bill) + float(total_bill) * new_tip
 per_people = round (new_total_bill / no_people, 2)
-print(f"Each person should pay: ${per_people}")
+print(f"Each person should pay: ${per_people:.2f}")
