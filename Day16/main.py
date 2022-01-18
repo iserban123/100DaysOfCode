@@ -6,10 +6,10 @@ itema = Menu()
 bani = MoneyMachine()
 #val = MenuItem()
 
-#itema.__init__()#
-#for x in itema.menu:
- #   y = itema.menu("latte")
-  #  print(y)
+itema.__init__()
+for x in itema.menu:
+    y = itema.menu("latte")
+    print(y)
 
 
 
