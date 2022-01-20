@@ -2,14 +2,15 @@ from turtle import Turtle, Screen
 import random
 
 colors = ["black", "red", "purple", "yellow", "blue", "orange"]
-angle = [90, -90]
+angle = [-90,0,90,180]
 timmy_the_turtle = Turtle()
 timmy_the_turtle.shape("turtle")
 timmy_the_turtle.color("plum")
+timmy_the_turtle.speed(8)
 
 for _ in range(50):
  timmy_the_turtle.pen(pensize=10, pencolor=random.choice(colors))
- timmy_the_turtle.forward(random.randint(10,110))
+ timmy_the_turtle.forward(20)
  timmy_the_turtle.right(random.choice(angle))
 
 
