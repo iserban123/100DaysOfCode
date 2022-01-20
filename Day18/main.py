@@ -8,21 +8,22 @@ timmy_the_turtle.color("pink")
 timmy_the_turtle.speed(0)
 
 def color_change():
-  r = random.randint(200,255)
-  g = random.randint(50,150)
-  b = random.randint(150,200)
+  r = random.randint(0,255)
+  g = random.randint(0,255)
+  b = random.randint(0,255)
   color_tuple = (r, g, b)
   return color_tuple
 
 
 def my_rotate(y):
-  for _ in range(35):
-    timmy_the_turtle.circle(y)
-    timmy_the_turtle.left(15)
-
-for i in range(200,100,-25):
+  for _ in range(int(360/y)):
     timmy_the_turtle.color(color_change())
-    my_rotate(i)
+    timmy_the_turtle.circle(200)
+    timmy_the_turtle.setheading(timmy_the_turtle.heading() + y)
+
+#for i in range(200,100,-25):
+  #  timmy_the_turtle.color(color_change())
+my_rotate(15)
 #TODO program care sa deseneze mandala
 
 
