@@ -2,25 +2,39 @@ import turtle
 from turtle import Turtle, Screen
 import random
 
-turtle.colormode(255)
-angle = [-90,0,90,180]
+#turtle.colormode(255)
+#angle = [-90,0,90,180]
 timmy_the_turtle = Turtle()
-timmy_the_turtle.shape("turtle")
-timmy_the_turtle.speed(8)
-timmy_the_turtle.pensize(10)
-
-def color_change():
-   r = random.randint(0,255)
-   g = random.randint(0,255)
-   b = random.randint(0,255)
-   color_tuple = (r, g, b)
-   return color_tuple
+timmy_the_turtle.color("pink")
+timmy_the_turtle.speed(0)
 
 
-for _ in range(200):
- timmy_the_turtle.color(color_change())
- timmy_the_turtle.forward(20)
- timmy_the_turtle.right(random.choice(angle))
+def my_rotate(y):
+  for _ in range(10):
+    timmy_the_turtle.circle(y)
+    timmy_the_turtle.left(y)
+
+for i in range(10,300,10):
+    my_rotate(i)
+
+
+
+
+#timmy_the_turtle.speed(8)
+#timmy_the_turtle.pensize(10)
+
+#def color_change():
+#   r = random.randint(0,255)
+#   g = random.randint(0,255)
+#   b = random.randint(0,255)
+#   color_tuple = (r, g, b)
+#   return color_tuple
+
+
+#for _ in range(200):
+# timmy_the_turtle.color(color_change())
+# timmy_the_turtle.forward(20)
+# timmy_the_turtle.right(random.choice(angle))
 
 
 #def draw_shape(no_sides):
