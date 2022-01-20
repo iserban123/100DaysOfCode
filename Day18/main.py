@@ -14,8 +14,7 @@ def draw_shape(no_sides):
 
 for x in range(3,11):
     draw_shape(x)
-
-
-
 screen = Screen()
 screen.exitonclick()
+dfdf
+lll
