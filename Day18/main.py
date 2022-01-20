@@ -4,15 +4,18 @@ timmy_the_turtle = Turtle()
 timmy_the_turtle.shape("turtle")
 timmy_the_turtle.color("plum")
 
-timmy_the_turtle.forward(50)
-x = 3
-while x <= 10:
-    for i in range(x):
-        print(x)
-        y = 180 - ((x - 2) * 180)/x
-        print(y)
-        timmy_the_turtle.right(y)
+
+def draw_shape(no_sides):
+    for _ in range(no_sides):
+        angle = 360/no_sides
+        timmy_the_turtle.right(angle)
         timmy_the_turtle.forward(50)
-    x += 1
+    no_sides += 1
+
+for x in range(3,11):
+    draw_shape(x)
+
+
+
 screen = Screen()
 screen.exitonclick()
