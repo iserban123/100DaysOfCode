@@ -13,8 +13,18 @@ class Scoreboard(Turtle):
         self.setposition(x=-20, y=260)
         self.pendown()
         self.y = 0
-        self.high_score = self.y
+        self.high_score = self.read_hi_score()
         self.new_score()
+
+    def read_hi_score(self):
+        with open("aaa.txt") as file:
+            content = int(file.read())
+            return content
+
+    def write_hi_score(self):
+        with open("aaa.txt", mode="w") as file:
+            a = str(self.high_score)
+            file.write(a)
 
     def new_score(self):
         self.clear()
