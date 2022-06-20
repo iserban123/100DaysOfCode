@@ -1,7 +1,7 @@
 import requests
 from datetime import datetime
 USERNAME = "eiulser"
-TOKEN = "sdsds23AS43a"
+TOKEN = ""
 ID_PYTHON = "graph1"
 p_endpoint = "https://pixe.la/v1/users"
 

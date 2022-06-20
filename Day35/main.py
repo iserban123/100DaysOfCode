@@ -3,8 +3,8 @@ import os
 from twilio.rest import Client
 #http://jsonviewer.stack.hu/
 
-account_sid = "AC8fddf4724b23c0c6d6ca7e83ea0a2330"
-auth_token = "66ce2331335d85f98450404c3cdd7c2d"
+account_sid = ""
+auth_token = ""
 
 
 api_key = os.environ.get("OWM_API_KEY")

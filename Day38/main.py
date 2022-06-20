@@ -7,8 +7,8 @@ import os
 print(os.getenv("GIGEL"))
 #API_K = os.environ["API_KEY"] save API_KEY below to configured env
 
-API_KEY = "01efdd2806ac6969dc217b79aac5cc88"
-API_ID = "69d73e78"
+API_KEY = ""
+API_ID = ""
 #https://docs.google.com/spreadsheets/d/1Dd-o9Dkn0aYg7x4C5-sF1encgogBvk-OMK5em5kC8mA/edit#gid=488880965
 
 end_p = "https://trackapi.nutritionix.com/v2/natural/exercise"

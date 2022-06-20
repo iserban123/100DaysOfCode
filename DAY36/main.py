@@ -5,8 +5,8 @@ STOCK = "TSLA"
 COMPANY_NAME = "Tesla Inc"
 A_KEY1 = "LAQ1GEFVBJA2SSK5"
 A_KEY2 = "2266437234e14234ae9ee69e8fa50b32"
-account_sid = "AC8fddf4724b23c0c6d6ca7e83ea0a2330"
-auth_token = "66ce2331335d85f98450404c3cdd7c2d"
+account_sid = ""
+auth_token = ""
 ## STEP 1: Use https://www.alphavantage.co
 # When STOCK price increase/decreases by 5% between yesterday and the day before yesterday then print("Get News").
 

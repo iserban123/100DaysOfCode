@@ -2,7 +2,7 @@ import requests
 from flight_data import FlightData
 
 FLIGHT_API_2 = "https://tequila-api.kiwi.com/v2/search"
-TEQUILA_KEY = "ZOJ-pGI1Z_N59bGHxtVmG-W37k8vkBcR"
+TEQUILA_KEY = ""
 
 def search_flight():
         head = {

@@ -4,8 +4,8 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 import pprint
 
-Client_ID = "3e18dafe711d41d2868877adea093986"
-Client_Secret = "daa461bbf1774140a597e3d610991c30"
+Client_ID = ""
+Client_Secret = ""
 
 
 ttime= input("What year you would like to travel to in YYYY-MM-DD: ")

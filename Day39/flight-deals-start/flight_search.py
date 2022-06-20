@@ -1,7 +1,7 @@
 import requests
 
 FLIGHT_API = "https://tequila-api.kiwi.com/locations/query"
-TEQUILA_KEY = "ZOJ-pGI1Z_N59bGHxtVmG-W37k8vkBcR"
+TEQUILA_KEY = ""
 
 class FlightSearch:
 
