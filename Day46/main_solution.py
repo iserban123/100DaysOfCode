@@ -2,8 +2,8 @@ from bs4 import BeautifulSoup
 import requests
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
-Client_ID = "3e18dafe711d41d2868877adea093986"
-Client_Secret = "daa461bbf1774140a597e3d610991c30"
+Client_ID = ""
+Client_Secret = ""
 
 # Scraping Billboard 100
 date = input("Which year do you want to travel to? Type the date in this format YYYY-MM-DD: ")
