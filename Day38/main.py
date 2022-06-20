@@ -34,7 +34,7 @@ query_p = {
 
 hea = {
     "Content-Type": "application/json",
-    "Authorization": "Bearer rtrtfdf565jh232234"
+    "Authorization": "Bearer "
      }
 
 
